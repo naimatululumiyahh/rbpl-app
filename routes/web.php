@@ -38,3 +38,8 @@ Route::get('/pesanan', function () {
 Route::get('/daftarbarang', function () {
     return view('daftarbarang');
 });
+
+Route::get('/landingpage', function () {
+    return view('landingpage');
+});
+
